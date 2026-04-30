@@ -9,12 +9,12 @@ class StringDuplicatesRemoval  {
             st.add(c);
         }
         
-        StringBuilder sb = new StringBuilder();
+        StringBuilder ss = new StringBuilder();
         
         for(char c : st){
-            sb.append(c);
+            ss.append(c);
         }
         
-        return sb.toString();
+        return ss.toString();
     }
 }
