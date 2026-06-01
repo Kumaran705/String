@@ -6,7 +6,7 @@ public class IsogramCheck {
             if (s.contains(c)) {
                 return false; 
             }
-            seen.add(c);
+            s.add(c);
         }
         return true;
     }
